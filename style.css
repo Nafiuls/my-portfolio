@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 93%;
+  margin: auto;
+  max-width: 1332px;
+}
+
+p {
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.text {
+  width: 100%;
+  max-width: 586px;
+}
+
+header {
+  background: #fff8f3;
+  background-image: url(./images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+nav {
+  width: 80%;
+  max-width: 1332px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 121px;
+  color: #181818;
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.orange {
+  color: #fd6e0a;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation a {
+  margin-right: 60px;
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+}
+
+.cv-button {
+  background-color: #fd6e0a;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 18px 35px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title h3 {
+  color: #474747;
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.title h1 {
+  color: #181818;
+  font-family: Open Sans;
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  column-gap: 20px;
+}
+
+.Contact {
+  border: 2px solid #fd6e0a;
+  background-color: transparent;
+  color: #fd6e0a;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 18px 35px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.banner-img img {
+  width: 100%;
+  max-width: 584px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.about-section {
+  margin-top: 130px;
+}
+
+.about {
+  padding: 72px 60px;
+  background-color: #fff8f3;
+}
+
+.about-title {
+  text-align: center;
+}
+
+.about-title h1 {
+  color: var(--Dark-01, #181818);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.about-details {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  margin-top: 50px;
+}
+
+.box {
+  text-align: center;
+}
+
+.bold {
+  color: #181818;
+  font-weight: 700;
+}
+
+.experience-section {
+  margin-top: 130px;
+}
+
+.my-work {
+  text-align: center;
+}
+
+.my-work h1 {
+  color: var(--Dark-01, #181818);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+  margin-top: 100px;
+}
+
+.box-skills {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.box-skills img {
+  margin-bottom: 30px;
+}
+
+.box-skills h3 {
+  color: var(--Dark-01, #181818);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.resume-section {
+  margin-top: 200px;
+}
+
+.resume-title {
+  text-align: center;
+}
+
+.resume-flex {
+  display: flex;
+  margin-top: 120px;
+  align-items: center;
+  column-gap: 25px;
+  justify-content: space-between;
+}
+
+.section-1 .box {
+  text-align: left;
+}
+
+.section-2 .box {
+  text-align: left;
+}
+
+.box {
+  margin: 30px auto;
+}
+
+.box h1 {
+  color: var(--Dark-02, #474747);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.time {
+  font-weight: 600;
+}
+
+.resume-buttons {
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #fff8f3;
+  margin-top: 200px;
+}
+
+footer .container {
+  padding: 72px 62px;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 50px;
+}
+
+.left {
+  width: 50%;
+}
+
+.left h1 {
+  margin-bottom: 20px;
+}
+
+.left p {
+  margin-bottom: 25px;
+}
+.right {
+  width: 50%;
+}
+
+.left img {
+  margin-right: 25px;
+}
+
+.right h1 {
+  margin-bottom: 30px;
+  color: var(--Dark-01, #181818);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.right form input {
+  display: block;
+  margin-bottom: 15px;
+  padding: 18px 350px 18px 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.right form input:focus {
+  outline: none;
+  border: 1px solid black;
+  color: black;
+}
+
+.right form textarea {
+  padding: 18px 275px 134px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.right form textarea:focus {
+  border: 2px solid black;
+  color: black;
+}
+
+.right form .cv-button {
+  margin-top: 20px;
+}
